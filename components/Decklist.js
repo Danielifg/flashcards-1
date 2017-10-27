@@ -2,7 +2,7 @@
  * Created by rahul on 26/10/17.
  */
 import React from 'react'
-import {View,Text,StyleSheet} from 'react-native'
+import {View,Text,StyleSheet,TouchableOpacity} from 'react-native'
 import {getDecks} from '../utils/helpers'
 
 class Decklist extends React.Component{
@@ -11,10 +11,14 @@ class Decklist extends React.Component{
         return(
             <View>
                 {cards.map(card=>(
-                    <View style={styles.card}>
+                    <TouchableOpacity
+                        style={styles.card}
+                        onPress={()=>this.props.navigation.navigate('Deck',{entryId:card.title})}
+                        key={card.title}
+                    >
                         <Text>{card.title}</Text>
                         <Text>{card.questions.length} {(card.questions.length>1)?'cards':'card'}</Text>
-                    </View>
+                    </TouchableOpacity>
                 ))}
             </View>
         )
