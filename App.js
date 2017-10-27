@@ -1,9 +1,10 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, StatusBar, View } from 'react-native';
 import {TabNavigator,StackNavigator} from 'react-navigation'
 import DeckList from './components/Decklist'
 import NewDeck from './components/NewDeck'
 import Deck from './components/Deck'
+import {Constants} from 'expo'
 
 const Tabs=TabNavigator({
     DeckList:{
@@ -29,18 +30,41 @@ const Tabs=TabNavigator({
 
 const MainNavigator=StackNavigator({
     Home:{
-        screen:Tabs
+        screen:Tabs,
+        navigationOptions:{
+            headerTintColor:'#fff',
+            headerStyle:{
+                backgroundColor:'#b71845'
+            },
+            title:'FlashCards'
+        }
     },
     Deck:{
-        screen:Deck
+        screen:Deck,
+        navigationOptions:{
+            headerTintColor:'#fff',
+            headerStyle:{
+                backgroundColor:'#b71845'
+            }
+        }
     }
 })
 
+function UdaciStatusBar({backgroundColor,...props}) {
+    return(
+        <View style={{backgroundColor:backgroundColor,height:Constants.statusBarHeight}}>
+            <StatusBar translucent backgroundColor={backgroundColor} {...props}/>
+        </View>
+    )
+}
 
 export default class App extends React.Component {
   render() {
     return (
-          <MainNavigator/>
+        <View style={{flex:1}}>
+            <UdaciStatusBar backgroundColor="#b71845"/>
+            <MainNavigator/>
+        </View>
     )
   }
 }

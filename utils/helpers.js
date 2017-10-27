@@ -24,13 +24,23 @@ export function getDecks() {
                     answer:'The combination of a function and the lexical environment within which that function was declared.'
                 }
             ]
+        },
+        {
+            title:'Movies',
+            questions:[
+                {
+                    question:'Must you talk about Fight Club?',
+                    answer:'You mustn\'t'
+                }
+            ]
         }
     ]
 }
 
-export function getDeck(id){
-    // Find the deck corresponding to the id from getDecks and return it.
-    getDecks().filter((result)=>result.id===id)
+export function getDeck(title){
+    console.log(title)
+    // Find the deck corresponding to the title from getDecks and return it.
+    return getDecks().filter((result)=>result.title===title)
 }
 
 export function saveDeckTitle(title){
