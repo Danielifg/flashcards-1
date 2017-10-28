@@ -6,31 +6,27 @@ import React from 'react'
 import {View,Text,StyleSheet,TouchableOpacity} from 'react-native'
 import {getDeck} from '../utils/helpers'
 
-class Deck extends React.Component{
-    static navigationOptions=({navigation})=>({
-        title:`${navigation.state.params.card}`
+class Deck extends React.Component {
+    static navigationOptions = ({navigation}) => ({
+        title: `${navigation.state.params.card}`
     })
-    showQuestions=()=>{
-        this.setState({
-            showQuestions:true
-        })
+
+    render() {
+        return (
+            <View style={styles.page}>
+                <Text style={styles.title}>
+                    {this.props.navigation.state.params.card}
+                </Text>
+                <TouchableOpacity style={styles.button}>
+                    <Text style={{color:'white'}}>Add Card</Text>
+                </TouchableOpacity>
+                <TouchableOpacity style={styles.button}
+                                  onPress={() => this.props.navigation.navigate('Quiz', {card: this.props.navigation.state.params.card})}>
+                    <Text style={{color:'white'}}>Start Quiz</Text>
+                </TouchableOpacity>
+            </View>
+        )
     }
-    render(){
-        const {questions}=this.state
-        console.log(questions)
-            return(
-                <View style={styles.page}>
-                    <Text style={styles.title}>
-                        {this.props.navigation.state.params.card}
-                    </Text>
-                    <TouchableOpacity style={styles.button}>
-                        <Text>Add Card</Text>
-                    </TouchableOpacity>
-                    <TouchableOpacity style={styles.button} onPress={()=>this.props.navigation.navigate('Quiz',{card:this.props.navigation.state.params.card})}>
-                        <Text>Start Quiz</Text>
-                    </TouchableOpacity>
-                </View>
-            )
 }
 
 const styles=StyleSheet.create({
@@ -47,8 +43,7 @@ const styles=StyleSheet.create({
     button:{
         backgroundColor:'blue',
         padding:20,
-        margin:10,
-        color:'white'
+        margin:10
     }
 })
 
