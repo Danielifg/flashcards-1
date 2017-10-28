@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc580743-7e70-490d-be68-8790c1b43159" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/Finish.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.json" afterPath="$PROJECT_DIR$/app.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App.js" afterPath="$PROJECT_DIR$/App.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/Quiz.js" afterPath="$PROJECT_DIR$/components/Quiz.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,9 +26,11 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="882">
-              <caret line="56" column="40" lean-forward="false" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
-              <folding />
+            <state relative-caret-position="270">
+              <caret line="84" column="55" lean-forward="true" selection-start-line="84" selection-start-column="55" selection-end-line="84" selection-end-column="55" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,16 +58,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Quiz.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Quiz.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/Quiz.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="102" column="38" lean-forward="true" selection-start-line="102" selection-start-column="38" selection-end-line="102" selection-end-column="38" />
+            <state relative-caret-position="613">
+              <caret line="55" column="21" lean-forward="true" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#41#66#0" expanded="true" />
-                <marker date="1509228050574" expanded="true" signature="895:3914" ph="..." />
-                <marker date="1509228050574" expanded="true" signature="918:1016" ph="..." />
+                <marker date="1509231319103" expanded="true" signature="895:4435" ph="..." />
+                <marker date="1509231319103" expanded="true" signature="918:1016" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Finish.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/components/Finish.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+              <folding>
+                <element signature="e#41#66#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,9 +137,10 @@
         <option value="$PROJECT_DIR$/components/NewDeck.js" />
         <option value="$PROJECT_DIR$/components/Decklist.js" />
         <option value="$PROJECT_DIR$/utils/helpers.js" />
-        <option value="$PROJECT_DIR$/App.js" />
         <option value="$PROJECT_DIR$/components/Deck.js" />
+        <option value="$PROJECT_DIR$/App.js" />
         <option value="$PROJECT_DIR$/components/Quiz.js" />
+        <option value="$PROJECT_DIR$/components/Finish.js" />
       </list>
     </option>
   </component>
@@ -147,9 +163,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1431" />
-    <option name="y" value="-744" />
+    <option name="y" value="-772" />
     <option name="width" value="1301" />
-    <option name="height" value="744" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -217,7 +233,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Quiz.js&#10;quiz&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Quiz.js&#10;dec&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Decklist.js&#10;Dec&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Deck.js&#10;app&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/App.js&#10;NewD&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/NewDeck.js&#10;Deckli&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Decklist.js&#10;help&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/utils/helpers.js" />
+    <property name="SearchEverywhereHistoryKey" value="fini&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Finish.js&#10;deckli&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Decklist.js&#10;app&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/App.js&#10;quiz&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Quiz.js&#10;dec&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Decklist.js&#10;Dec&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Deck.js&#10;NewD&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/NewDeck.js&#10;Deckli&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Decklist.js&#10;help&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/utils/helpers.js" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -319,15 +335,15 @@
       <workItem from="1509098725082" duration="2408000" />
       <workItem from="1509176152147" duration="5575000" />
       <workItem from="1509211364422" duration="591000" />
-      <workItem from="1509226357453" duration="1720000" />
+      <workItem from="1509226357453" duration="5371000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20241000" />
+    <option name="totallyTimeSpent" value="23892000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1431" y="-744" width="1301" height="744" extended-state="6" />
+    <frame x="1431" y="-772" width="1301" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2254517" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -360,14 +376,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/utils/helpers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/Quiz.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1314">
@@ -375,8 +383,8 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#41#66#0" expanded="true" />
-            <marker date="1509228050574" expanded="true" signature="895:3914" ph="..." />
-            <marker date="1509228050574" expanded="true" signature="918:1016" ph="..." />
+            <marker date="1509231319103" expanded="true" signature="895:4435" ph="..." />
+            <marker date="1509231319103" expanded="true" signature="918:1016" ph="..." />
           </folding>
         </state>
       </provider>
@@ -385,7 +393,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -415,8 +425,8 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#41#66#0" expanded="true" />
-            <marker date="1509228050574" expanded="true" signature="895:3914" ph="..." />
-            <marker date="1509228050574" expanded="true" signature="918:1016" ph="..." />
+            <marker date="1509231319103" expanded="true" signature="895:4435" ph="..." />
+            <marker date="1509231319103" expanded="true" signature="918:1016" ph="..." />
           </folding>
         </state>
       </provider>
@@ -452,7 +462,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="972">
           <caret line="60" column="50" lean-forward="false" selection-start-line="60" selection-start-column="50" selection-end-line="60" selection-end-column="50" />
-          <folding />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -471,8 +483,8 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#41#66#0" expanded="true" />
-            <marker date="1509228050574" expanded="true" signature="895:3914" ph="..." />
-            <marker date="1509228050574" expanded="true" signature="918:1016" ph="..." />
+            <marker date="1509231319103" expanded="true" signature="895:4435" ph="..." />
+            <marker date="1509231319103" expanded="true" signature="918:1016" ph="..." />
           </folding>
         </state>
       </provider>
@@ -519,7 +531,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="972">
           <caret line="60" column="50" lean-forward="false" selection-start-line="60" selection-start-column="50" selection-end-line="60" selection-end-column="50" />
-          <folding />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -538,8 +552,8 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#41#66#0" expanded="true" />
-            <marker date="1509228050574" expanded="true" signature="895:3914" ph="..." />
-            <marker date="1509228050574" expanded="true" signature="918:1016" ph="..." />
+            <marker date="1509231319103" expanded="true" signature="895:4435" ph="..." />
+            <marker date="1509231319103" expanded="true" signature="918:1016" ph="..." />
           </folding>
         </state>
       </provider>
@@ -586,7 +600,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -616,8 +632,8 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#41#66#0" expanded="true" />
-            <marker date="1509228050574" expanded="true" signature="895:3914" ph="..." />
-            <marker date="1509228050574" expanded="true" signature="918:1016" ph="..." />
+            <marker date="1509231319103" expanded="true" signature="895:4435" ph="..." />
+            <marker date="1509231319103" expanded="true" signature="918:1016" ph="..." />
           </folding>
         </state>
       </provider>
@@ -653,7 +669,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -683,8 +701,8 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#41#66#0" expanded="true" />
-            <marker date="1509228050574" expanded="true" signature="895:3914" ph="..." />
-            <marker date="1509228050574" expanded="true" signature="918:1016" ph="..." />
+            <marker date="1509231319103" expanded="true" signature="895:4435" ph="..." />
+            <marker date="1509231319103" expanded="true" signature="918:1016" ph="..." />
           </folding>
         </state>
       </provider>
@@ -720,7 +738,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -750,8 +770,8 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#41#66#0" expanded="true" />
-            <marker date="1509228050574" expanded="true" signature="895:3914" ph="..." />
-            <marker date="1509228050574" expanded="true" signature="918:1016" ph="..." />
+            <marker date="1509231319103" expanded="true" signature="895:4435" ph="..." />
+            <marker date="1509231319103" expanded="true" signature="918:1016" ph="..." />
           </folding>
         </state>
       </provider>
@@ -799,22 +819,6 @@
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#41#66#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/Decklist.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="15" column="93" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="56" column="40" lean-forward="false" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -837,15 +841,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="84" column="55" lean-forward="true" selection-start-line="84" selection-start-column="55" selection-end-line="84" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Decklist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="15" column="93" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/components/Quiz.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="102" column="38" lean-forward="true" selection-start-line="102" selection-start-column="38" selection-end-line="102" selection-end-column="38" />
+        <state relative-caret-position="613">
+          <caret line="55" column="21" lean-forward="true" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#41#66#0" expanded="true" />
-            <marker date="1509228050574" expanded="true" signature="895:3914" ph="..." />
-            <marker date="1509228050574" expanded="true" signature="918:1016" ph="..." />
+            <marker date="1509231319103" expanded="true" signature="895:4435" ph="..." />
+            <marker date="1509231319103" expanded="true" signature="918:1016" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Finish.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+          <folding>
+            <element signature="e#41#66#0" expanded="true" />
           </folding>
         </state>
       </provider>

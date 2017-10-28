@@ -72,7 +72,11 @@ class Quiz extends React.Component{
                         }
                     }}
                 >
-                    <Text>Yes</Text>
+                    <Text
+                        style={styles.buttonText}
+                    >
+                        Correct
+                    </Text>
                 </TouchableOpacity>
                 <TouchableOpacity
                     style={[styles.button,{backgroundColor:'red'}]}
@@ -89,7 +93,11 @@ class Quiz extends React.Component{
                         }
                     }}
                 >
-                    <Text>No</Text>
+                    <Text
+                        style={styles.buttonText}
+                    >
+                        Incorrect
+                    </Text>
                 </TouchableOpacity>
                 {(details[0].questions.length>currentQuestion)&&
                     <TouchableOpacity
@@ -100,7 +108,13 @@ class Quiz extends React.Component{
                 }
 
                 {(this.state.showFinish)&&
-                    <TouchableOpacity><Text>Finish</Text></TouchableOpacity>
+                    <TouchableOpacity
+                        onPress={()=>{
+                            this.props.navigation.navigate('Finish',{score:this.state.correct,maximum:this.state.details[0].questions.length})
+                        }}
+                    >
+                        <Text>Finish</Text>
+                    </TouchableOpacity>
                 }
             </View>
         )
@@ -127,6 +141,9 @@ const styles=StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         margin:10
+    },
+    buttonText:{
+        color:'white'
     }
 })
 

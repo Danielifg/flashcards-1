@@ -6,6 +6,7 @@ import NewDeck from './components/NewDeck'
 import Deck from './components/Deck'
 import Quiz from './components/Quiz'
 import {Constants} from 'expo'
+import Finish from './components/Finish'
 
 const Tabs=TabNavigator({
     DeckList:{
@@ -51,6 +52,15 @@ const MainNavigator=StackNavigator({
     },
     Quiz:{
         screen:Quiz,
+        navigationOptions:{
+            headerTintColor:'#fff',
+            headerStyle:{
+                backgroundColor:'#b71845'
+            }
+        }
+    },
+    Finish:{
+        screen:Finish,
         navigationOptions:{
             headerTintColor:'#fff',
             headerStyle:{
