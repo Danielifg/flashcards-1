@@ -6,11 +6,24 @@ import {View,Text,StyleSheet,TouchableOpacity} from 'react-native'
 import {getDecks} from '../utils/helpers'
 
 class Decklist extends React.Component{
+    constructor(props){
+        super(props)
+        this.state={
+            cards:[]
+        }
+    }
+    componentDidMount(){
+        const cards=getDecks()
+        this.setState({
+            cards:Object.keys(cards).map((card)=>(cards[card]))
+        })
+    }
     render(){
         const cards=getDecks()
+        console.log(cards)
         return(
             <View>
-                {cards.map(card=>(
+                {this.state.cards.map(card=>(
                     <TouchableOpacity
                         style={styles.card}
                         onPress={()=>this.props.navigation.navigate('Deck',{card:card.title})}
@@ -20,6 +33,9 @@ class Decklist extends React.Component{
                         <Text>{card.questions.length} {(card.questions.length>1)?'cards':'card'}</Text>
                     </TouchableOpacity>
                 ))}
+                <Text>Hello!</Text>
+                <Text>{JSON.stringify(cards)}</Text>
+                <Text>{JSON.stringify(Object.keys(cards).map((card)=>(cards[card])))}</Text>
             </View>
         )
     }

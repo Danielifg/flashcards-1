@@ -10,7 +10,6 @@ class Deck extends React.Component {
     static navigationOptions = ({navigation}) => ({
         title: `${navigation.state.params.card}`
     })
-
     render() {
         return (
             <View style={styles.page}>
