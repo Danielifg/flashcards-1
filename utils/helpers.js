@@ -1,6 +1,6 @@
 import {AsyncStorage} from 'react-native'
 
-const decks={
+let decks={
     React:{
         title:'React',
         questions:[
@@ -34,10 +34,30 @@ const decks={
     }
 }
 
+const flashkey='@rahulflashkard:key'
+
 export function getDecks() {
     // List of all decks. Titles, Questions and Answers.
-    return decks
+    return AsyncStorage.getItem(flashkey).then((decks) => {
+        console.log(decks)
+        return JSON.parse(decks)
+    })
+    // let latestDecks=AsyncStorage.getItem(flashkey).then((result)=>{
+    //     let data=JSON.parse(result)
+    //     if(data===null){
+    //         AsyncStorage.setItem(flashkey,JSON.stringify(decks))
+    //         return decks
+    //     }
+    //     else{
+    //         console.log(data)
+    //         return data
+    //     }
+    // })
+    // console.log(latestDecks)
+    // return latestDecks
 }
+
+console.log(getDecks().then(data=>(JSON.parse(data))))
 
 export function getDeck(title){
     console.log(title)
@@ -47,11 +67,13 @@ export function getDeck(title){
     return newArray.filter((result)=>result.title===title)
 }
 
-const flashkey='@rahulflashkard:key'
 
 export function saveDeckTitle(title){
     // Adds a new deck.
-    AsyncStorage.mergeItem(flashkey,[getDecks(),AsyncStorage.getItem(flashkey),{title:title,questions:[]}])
+    AsyncStorage.mergeItem(
+        flashkey,
+        {[title]:{}}
+    )
 }
 
 

@@ -9,18 +9,19 @@ class Decklist extends React.Component{
     constructor(props){
         super(props)
         this.state={
-            cards:[]
+            cards:[{questions:[{title:''}]}]
         }
     }
     componentDidMount(){
-        const cards=getDecks()
-        this.setState({
-            cards:Object.keys(cards).map((card)=>(cards[card]))
+        getDecks().then(data=>{
+            console.log(data)
+            this.setState({
+                cards:Object.keys(data).map((key)=>(data[key]))
+            })
         })
     }
     render(){
-        const cards=getDecks()
-        console.log(cards)
+        const {cards}=this.state
         return(
             <View>
                 {this.state.cards.map(card=>(
@@ -29,13 +30,11 @@ class Decklist extends React.Component{
                         onPress={()=>this.props.navigation.navigate('Deck',{card:card.title})}
                         key={card.title}
                     >
+                        {console.log(card)}
                         <Text>{card.title}</Text>
                         <Text>{card.questions.length} {(card.questions.length>1)?'cards':'card'}</Text>
                     </TouchableOpacity>
                 ))}
-                <Text>Hello!</Text>
-                <Text>{JSON.stringify(cards)}</Text>
-                <Text>{JSON.stringify(Object.keys(cards).map((card)=>(cards[card])))}</Text>
             </View>
         )
     }
