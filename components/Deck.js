@@ -16,11 +16,16 @@ class Deck extends React.Component {
                 <Text style={styles.title}>
                     {this.props.navigation.state.params.card}
                 </Text>
-                <TouchableOpacity style={styles.button}>
+                <TouchableOpacity
+                    style={[styles.button,{backgroundColor:'blue'}]}
+                    onPress={()=>{this.props.navigation.navigate('NewQuestion',{card: this.props.navigation.state.params.card})}}
+                >
                     <Text style={{color:'white'}}>Add Card</Text>
                 </TouchableOpacity>
-                <TouchableOpacity style={styles.button}
-                                  onPress={() => this.props.navigation.navigate('Quiz', {card: this.props.navigation.state.params.card})}>
+                <TouchableOpacity
+                    style={[styles.button,{backgroundColor:'blue'}]}
+                    onPress={() => this.props.navigation.navigate('Quiz', {card: this.props.navigation.state.params.card})}
+                >
                     <Text style={{color:'white'}}>Start Quiz</Text>
                 </TouchableOpacity>
             </View>
@@ -40,9 +45,17 @@ const styles=StyleSheet.create({
         marginTop:30
     },
     button:{
-        backgroundColor:'blue',
-        padding:20,
+        padding: 10,
+        paddingLeft: 30,
+        paddingRight: 30,
+        height: 45,
+        borderRadius: 2,
+        justifyContent: 'center',
+        alignItems: 'center',
         margin:10
+    },
+    buttonText:{
+        color:'white'
     }
 })
 

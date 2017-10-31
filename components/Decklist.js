@@ -2,14 +2,15 @@
  * Created by rahul on 26/10/17.
  */
 import React from 'react'
-import {View,Text,StyleSheet,TouchableOpacity} from 'react-native'
+import {Text,StyleSheet,TouchableOpacity,ScrollView,RefreshControl} from 'react-native'
 import {getDecks} from '../utils/helpers'
 
 class Decklist extends React.Component{
     constructor(props){
         super(props)
         this.state={
-            cards:[{questions:[{title:''}]}]
+            cards:[{title:'',questions:[]}],
+            refreshing:false
         }
     }
     componentDidMount(){
@@ -20,10 +21,28 @@ class Decklist extends React.Component{
             })
         })
     }
+    _onRefresh() {
+        this.setState({refreshing: true});
+        getDecks().then(data=>{
+            console.log(data)
+            this.setState({
+                cards:Object.keys(data).map((key)=>(data[key])),
+                refreshing:false
+            })
+        })
+    }
+
     render(){
         const {cards}=this.state
         return(
-            <View>
+            <ScrollView
+                refreshControl={
+                    <RefreshControl
+                        refreshing={this.state.refreshing}
+                        onRefresh={this._onRefresh.bind(this)}
+                    />
+                }
+            >
                 {this.state.cards.map(card=>(
                     <TouchableOpacity
                         style={styles.card}
@@ -35,7 +54,7 @@ class Decklist extends React.Component{
                         <Text>{card.questions.length} {(card.questions.length>1)?'cards':'card'}</Text>
                     </TouchableOpacity>
                 ))}
-            </View>
+            </ScrollView>
         )
     }
 }

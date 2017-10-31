@@ -20,14 +20,15 @@ class Quiz extends React.Component{
         }
     }
     componentDidMount(){
-        console.log(this.props)
-        this.setState({
-            details:getDeck(this.props.navigation.state.params.card)
+        getDeck(this.props.navigation.state.params.card).then((data)=>{
+            this.setState({
+                details:data
+            })
         })
     }
     render(){
+        console.log(this.state)
         const {currentQuestion,details} = this.state
-        console.log(details[0].questions)
         return(
             <View style={styles.container}>
                 <Text>
