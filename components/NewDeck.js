@@ -4,6 +4,7 @@
 import React from 'react'
 import {View,Text,StyleSheet,TextInput,TouchableOpacity} from 'react-native'
 import {saveDeckTitle} from '../utils/helpers'
+import {Constants} from 'expo'
 
 class NewDeck extends React.Component{
     state={
@@ -38,8 +39,8 @@ const styles=StyleSheet.create({
         padding:20
     },
     input:{
-        width:200,
-        padding:10
+        padding:10,
+        alignSelf:'stretch'
     },
     button:{
         padding: 10,
