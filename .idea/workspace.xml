@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc580743-7e70-490d-be68-8790c1b43159" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App.js" afterPath="$PROJECT_DIR$/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/Deck.js" afterPath="$PROJECT_DIR$/components/Deck.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/Decklist.js" afterPath="$PROJECT_DIR$/components/Decklist.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/NewDeck.js" afterPath="$PROJECT_DIR$/components/NewDeck.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/NewQuestion.js" afterPath="$PROJECT_DIR$/components/NewQuestion.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/Quiz.js" afterPath="$PROJECT_DIR$/components/Quiz.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/helpers.js" afterPath="$PROJECT_DIR$/utils/helpers.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -63,8 +56,8 @@
       <file leaf-file-name="Quiz.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/Quiz.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+            <state relative-caret-position="396">
+              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#41#66#0" expanded="true" />
@@ -138,9 +131,9 @@
         <option value="$PROJECT_DIR$/components/Finish.js" />
         <option value="$PROJECT_DIR$/components/NewDeck.js" />
         <option value="$PROJECT_DIR$/components/Deck.js" />
-        <option value="$PROJECT_DIR$/components/Quiz.js" />
         <option value="$PROJECT_DIR$/components/Decklist.js" />
         <option value="$PROJECT_DIR$/utils/helpers.js" />
+        <option value="$PROJECT_DIR$/components/Quiz.js" />
       </list>
     </option>
   </component>
@@ -339,12 +332,12 @@
       <workItem from="1509236764819" duration="8116000" />
       <workItem from="1509280671202" duration="2355000" />
       <workItem from="1509432434314" duration="886000" />
-      <workItem from="1509436742983" duration="553000" />
+      <workItem from="1509436742983" duration="777000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38488000" />
+    <option name="totallyTimeSpent" value="38712000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1431" y="-4" width="1301" height="772" extended-state="6" />
@@ -847,8 +840,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/Quiz.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        <state relative-caret-position="396">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#41#66#0" expanded="true" />
