@@ -39,27 +39,18 @@ const flashkey='@rahulflashkard:key'
 export function getDecks() {
     // List of all decks. Titles, Questions and Answers.
     return AsyncStorage.getItem(flashkey).then((data) => {
-        console.log(data)
+        console.log('Data from helpers!',data)
         if(JSON.parse(data)!==null) {
             return JSON.parse(data)
         }
         else{
             AsyncStorage.setItem(flashkey,JSON.stringify(decks))
+            return AsyncStorage.getItem(flashkey).then((data)=>{
+                console.log(data)
+                return JSON.parse(data)
+            })
         }
     })
-    // let latestDecks=AsyncStorage.getItem(flashkey).then((result)=>{
-    //     let data=JSON.parse(result)
-    //     if(data===null){
-    //         AsyncStorage.setItem(flashkey,JSON.stringify(decks))
-    //         return decks
-    //     }
-    //     else{
-    //         console.log(data)
-    //         return data
-    //     }
-    // })
-    // console.log(latestDecks)
-    // return latestDecks
 }
 
 export function getDeck(title){
