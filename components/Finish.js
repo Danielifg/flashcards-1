@@ -2,7 +2,7 @@
  * Created by rahul on 29/10/17.
  */
 import React from 'react'
-import {Text,View,StyleSheet} from 'react-native'
+import {Text,View,StyleSheet,TouchableOpacity} from 'react-native'
 
 class Finish extends React.Component{
     static navigationOptions=({navigation})=>({
@@ -17,6 +17,18 @@ class Finish extends React.Component{
                 <View style={styles.score}>
                     <Text style={{textAlign:'center',fontSize:64}}>{this.props.navigation.state.params.score} / {this.props.navigation.state.params.maximum}</Text>
                 </View>
+                <TouchableOpacity
+                    onPress={()=>this.props.navigation.navigate('Quiz',{card:this.props.navigation.state.params.card})}
+                    style={[styles.button,{backgroundColor:'green'}]}
+                >
+                    <Text style={styles.buttonText}>Start Over</Text>
+                </TouchableOpacity>
+                <TouchableOpacity
+                    onPress={()=>this.props.navigation.navigate('Deck',{card:this.props.navigation.state.params.card})}
+                    style={[styles.button,{backgroundColor:'green'}]}
+                >
+                    <Text style={styles.buttonText}>Go to {this.props.navigation.state.params.card}</Text>
+                </TouchableOpacity>
             </View>
         )
     }
@@ -28,6 +40,19 @@ const styles=StyleSheet.create({
     },
     score:{
 
+    },
+    button:{
+        padding: 10,
+        paddingLeft: 30,
+        paddingRight: 30,
+        height: 45,
+        borderRadius: 2,
+        justifyContent: 'center',
+        alignItems: 'center',
+        margin:10
+    },
+    buttonText:{
+        color:'white'
     }
 })
 
