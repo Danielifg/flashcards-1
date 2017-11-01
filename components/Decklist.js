@@ -38,7 +38,7 @@ class Decklist extends React.Component{
                 refreshing:false,
                 loading:false
             })
-        }).error(err=>console.error(err))
+        }).catch(err=>console.error(err))
     }
     render(){
         const {cards,loading}=this.state

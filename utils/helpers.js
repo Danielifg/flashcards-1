@@ -68,7 +68,7 @@ export function getDeck(title){
 export function saveDeckTitle(title){
     // Adds a new deck.
     console.log(title)
-    AsyncStorage.mergeItem(
+    return AsyncStorage.mergeItem(
         flashkey,
         JSON.stringify({[title]:{
             title,
