@@ -24,7 +24,7 @@ class Finish extends React.Component{
                     <Text style={styles.buttonText}>Start Over</Text>
                 </TouchableOpacity>
                 <TouchableOpacity
-                    onPress={()=>this.props.navigation.navigate('Deck',{card:this.props.navigation.state.params.card})}
+                    onPress={()=>this.props.navigation.navigate('Deck',{card:this.props.navigation.state.params.card,count:this.props.navigation.state.params.count})}
                     style={[styles.button,{backgroundColor:'green'}]}
                 >
                     <Text style={styles.buttonText}>Go to {this.props.navigation.state.params.card}</Text>

@@ -4,7 +4,6 @@
 
 import React from 'react'
 import {View,Text,StyleSheet,TouchableOpacity} from 'react-native'
-import {getDeck} from '../utils/helpers'
 
 class Deck extends React.Component {
     static navigationOptions = ({navigation}) => ({
@@ -19,18 +18,18 @@ class Deck extends React.Component {
                 <Text>
                     {this.props.navigation.state.params.count} {this.props.navigation.state.params.count>1?'cards':'card'} in the deck.
                 </Text>
-                <TouchableOpacity
-                    style={[styles.button,{backgroundColor:'blue'}]}
-                    onPress={()=>{this.props.navigation.navigate('NewQuestion',{card: this.props.navigation.state.params.card})}}
-                >
-                    <Text style={{color:'white'}}>Add Card</Text>
-                </TouchableOpacity>
-                <TouchableOpacity
-                    style={[styles.button,{backgroundColor:'blue'}]}
-                    onPress={() => this.props.navigation.navigate('Quiz', {card: this.props.navigation.state.params.card})}
-                >
-                    <Text style={{color:'white'}}>Start Quiz</Text>
-                </TouchableOpacity>
+                    <TouchableOpacity
+                        style={[styles.button,{backgroundColor:'blue'}]}
+                        onPress={()=>{this.props.navigation.navigate('NewQuestion',{card: this.props.navigation.state.params.card})}}
+                    >
+                        <Text style={{color:'white'}}>Add Card</Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity
+                        style={[styles.button,{backgroundColor:'blue'}]}
+                        onPress={() => this.props.navigation.navigate('Quiz', {card: this.props.navigation.state.params.card,count:this.props.navigation.state.params.count})}
+                    >
+                        <Text style={{color:'white'}}>Start Quiz</Text>
+                    </TouchableOpacity>
             </View>
         )
     }

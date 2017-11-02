@@ -8,6 +8,7 @@ import Quiz from './components/Quiz'
 import {Constants} from 'expo'
 import Finish from './components/Finish'
 import NewQuestion from './components/NewQuestion'
+import {setLocalNotification} from './utils/helpers'
 
 const Tabs=TabNavigator({
     DeckList:{
@@ -90,14 +91,18 @@ function UdaciStatusBar({backgroundColor,...props}) {
 }
 
 export default class App extends React.Component {
-  render() {
-    return (
-        <View style={{flex:1}}>
-            <UdaciStatusBar backgroundColor="#b71845"/>
-            <MainNavigator/>
-        </View>
-    )
-  }
+    componentDidMount(){
+        console.log('Component Did Mount')
+        setLocalNotification()
+    }
+    render(){
+        return (
+            <View style={{flex:1}}>
+                <UdaciStatusBar backgroundColor="#b71845"/>
+                <MainNavigator/>
+            </View>
+        )
+    }
 }
 
 const styles = StyleSheet.create({
