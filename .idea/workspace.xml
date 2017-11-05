@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc580743-7e70-490d-be68-8790c1b43159" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/Decklist.js" afterPath="$PROJECT_DIR$/components/Decklist.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/Quiz.js" afterPath="$PROJECT_DIR$/components/Quiz.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,18 +23,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1548">
-              <caret line="96" column="5" lean-forward="false" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
-              <folding>
-                <marker date="1509561796355" expanded="true" signature="2584:2587" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -68,14 +58,26 @@
       <file leaf-file-name="Decklist.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/Decklist.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="38" column="25" lean-forward="false" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+            <state relative-caret-position="1008">
+              <caret line="61" column="21" lean-forward="false" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="helpers.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/helpers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-18">
+              <caret line="116" column="38" lean-forward="false" selection-start-line="116" selection-start-column="38" selection-end-line="116" selection-end-column="38" />
+              <caret line="121" column="34" lean-forward="true" selection-start-line="121" selection-start-column="34" selection-end-line="121" selection-end-column="34" />
+              <caret line="134" column="36" lean-forward="true" selection-start-line="134" selection-start-column="36" selection-end-line="134" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -112,11 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Quiz.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Quiz.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/Quiz.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1350">
-              <caret line="77" column="51" lean-forward="false" selection-start-line="77" selection-start-column="51" selection-end-line="77" selection-end-column="51" />
+            <state relative-caret-position="162">
+              <caret line="115" column="17" lean-forward="false" selection-start-line="115" selection-start-column="17" selection-end-line="115" selection-end-column="17" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -156,15 +158,15 @@
       <list>
         <option value="$PROJECT_DIR$/components/NewDeck.js" />
         <option value="$PROJECT_DIR$/App.js" />
-        <option value="$PROJECT_DIR$/utils/helpers.js" />
         <option value="$PROJECT_DIR$/app.json" />
         <option value="$PROJECT_DIR$/.expo/packager-info.json" />
         <option value="$PROJECT_DIR$/components/NewQuestion.js" />
         <option value="$PROJECT_DIR$/components/Deck.js" />
-        <option value="$PROJECT_DIR$/components/Quiz.js" />
         <option value="$PROJECT_DIR$/components/Finish.js" />
-        <option value="$PROJECT_DIR$/components/Decklist.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/components/Decklist.js" />
+        <option value="$PROJECT_DIR$/utils/helpers.js" />
+        <option value="$PROJECT_DIR$/components/Quiz.js" />
       </list>
     </option>
   </component>
@@ -270,7 +272,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../selectdine-react" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="SearchEverywhereHistoryKey" value="REa&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/README.md&#10;Dec&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Decklist.js&#10;Finis&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Finish.js&#10;Quiz&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Quiz.js&#10;NewQ&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/NewQuestion.js&#10;app.json&#9;FILE&#9;file:///home/rahul/Desktop/flashcards/app.json&#10;app.&#9;FILE&#9;file:///home/rahul/Desktop/flashcards/App.js&#10;help&#9;FILE&#9;file:///home/rahul/Desktop/flashcards/utils/helpers.js&#10;NewD&#9;FILE&#9;file:///home/rahul/Desktop/flashcards/components/NewDeck.js&#10;De&#9;FILE&#9;file:///home/rahul/Desktop/flashcards/components/Decklist.js&#10;Decklis&#9;FILE&#9;file:///home/rahul/Desktop/flashcards/components/Decklist.js&#10;README&#9;FILE&#9;file:///home/rahul/Desktop/flashcards/README.md&#10;N&#9;FILE&#9;file:///home/rahul/Desktop/flashcards/components/NewDeck.js&#10;Deckl&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Decklist.js&#10;fini&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Finish.js&#10;deckli&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Decklist.js&#10;app&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/App.js&#10;quiz&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Quiz.js&#10;dec&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Decklist.js&#10;Deckli&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Decklist.js" />
+    <property name="SearchEverywhereHistoryKey" value="Quiz&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Quiz.js&#10;help&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/utils/helpers.js&#10;REa&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/README.md&#10;Dec&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Decklist.js&#10;Finis&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Finish.js&#10;NewQ&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/NewQuestion.js&#10;app.json&#9;FILE&#9;file:///home/rahul/Desktop/flashcards/app.json&#10;app.&#9;FILE&#9;file:///home/rahul/Desktop/flashcards/App.js&#10;NewD&#9;FILE&#9;file:///home/rahul/Desktop/flashcards/components/NewDeck.js&#10;De&#9;FILE&#9;file:///home/rahul/Desktop/flashcards/components/Decklist.js&#10;Decklis&#9;FILE&#9;file:///home/rahul/Desktop/flashcards/components/Decklist.js&#10;README&#9;FILE&#9;file:///home/rahul/Desktop/flashcards/README.md&#10;N&#9;FILE&#9;file:///home/rahul/Desktop/flashcards/components/NewDeck.js&#10;Deckl&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Decklist.js&#10;fini&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Finish.js&#10;deckli&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Decklist.js&#10;app&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/App.js&#10;quiz&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Quiz.js&#10;dec&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Decklist.js&#10;Deckli&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Decklist.js" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -382,12 +384,12 @@
       <workItem from="1509438453252" duration="14243000" />
       <workItem from="1509607690745" duration="3943000" />
       <workItem from="1509823600506" duration="5389000" />
-      <workItem from="1509899287196" duration="2414000" />
+      <workItem from="1509899287196" duration="2633000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65546000" />
+    <option name="totallyTimeSpent" value="65765000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-30" width="1366" height="798" extended-state="1" />
@@ -778,7 +780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/helpers.js" />
     <entry file="file://$PROJECT_DIR$/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1548">
@@ -835,28 +836,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/Quiz.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="77" column="51" lean-forward="false" selection-start-line="77" selection-start-column="51" selection-end-line="77" selection-end-column="51" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/Finish.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
           <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/Decklist.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="38" column="25" lean-forward="false" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -875,6 +858,34 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Decklist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="61" column="21" lean-forward="false" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/helpers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="116" column="38" lean-forward="false" selection-start-line="116" selection-start-column="38" selection-end-line="116" selection-end-column="38" />
+          <caret line="121" column="34" lean-forward="true" selection-start-line="121" selection-start-column="34" selection-end-line="121" selection-end-column="34" />
+          <caret line="134" column="36" lean-forward="true" selection-start-line="134" selection-start-column="36" selection-end-line="134" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Quiz.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="115" column="17" lean-forward="false" selection-start-line="115" selection-start-column="17" selection-end-line="115" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -114,18 +114,6 @@ class Quiz extends React.Component{
                         <Text>Next</Text>
                     </TouchableOpacity>
                 }
-
-                {/*{(this.state.showFinish)&&*/}
-                    {/*<TouchableOpacity*/}
-                        {/*onPress={()=>{*/}
-                            {/*this.props.navigation.navigate('Finish',{score:this.state.correct,maximum:this.state.details[0].questions.length,card:this.props.navigation.state.params.card,count:this.props.navigation.state.params.count})*/}
-                            {/*clearLocalNotification()*/}
-                                {/*.then(setLocalNotification)*/}
-                        {/*}}*/}
-                    {/*>*/}
-                        {/*<Text>Finish</Text>*/}
-                    {/*</TouchableOpacity>*/}
-                {/*}*/}
             </View>
         )
     }
