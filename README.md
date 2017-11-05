@@ -9,3 +9,26 @@ _____________________
 Install all dependencies: `yarn install`
 
 To start: `yarn start`
+
+The project has been tested and confirmed to be working successfully on Android versions greater than 6.0
+
+
+# Deploying
+
+Need to have an account with expo and the exp command line utility (which can be installed by running `npm i exp -g` )
+
+To generate an apk: `exp build:android`
+  
+
+# Built with
+
+- React Native
+- Expo
+
+# Authors
+
+Rahul A. Krishna
+
+# Licence
+
+This project is licensed under the MIT License
