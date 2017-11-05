@@ -26,6 +26,13 @@ class Quiz extends React.Component{
             })
         })
     }
+    navigateToFinish=()=>{
+        this.setState({
+            showFinish:false
+        },()=>{
+            this.props.navigation.navigate('Finish',{score:this.state.correct,maximum:this.state.details[0].questions.length,card:this.props.navigation.state.params.card,count:this.props.navigation.state.params.count})
+        })
+    }
     render(){
         console.log(this.state)
         const {currentQuestion,details} = this.state
@@ -68,6 +75,7 @@ class Quiz extends React.Component{
                                 correct:this.state.correct+1,
                                 showFinish:true
                             })
+                            this.navigateToFinish()
                         }
                     }}
                 >
@@ -89,6 +97,7 @@ class Quiz extends React.Component{
                             this.setState({
                                 showFinish:true
                             })
+                            this.navigateToFinish()
                         }
                     }}
                 >
@@ -106,17 +115,17 @@ class Quiz extends React.Component{
                     </TouchableOpacity>
                 }
 
-                {(this.state.showFinish)&&
-                    <TouchableOpacity
-                        onPress={()=>{
-                            this.props.navigation.navigate('Finish',{score:this.state.correct,maximum:this.state.details[0].questions.length,card:this.props.navigation.state.params.card,count:this.props.navigation.state.params.count})
-                            clearLocalNotification()
-                                .then(setLocalNotification)
-                        }}
-                    >
-                        <Text>Finish</Text>
-                    </TouchableOpacity>
-                }
+                {/*{(this.state.showFinish)&&*/}
+                    {/*<TouchableOpacity*/}
+                        {/*onPress={()=>{*/}
+                            {/*this.props.navigation.navigate('Finish',{score:this.state.correct,maximum:this.state.details[0].questions.length,card:this.props.navigation.state.params.card,count:this.props.navigation.state.params.count})*/}
+                            {/*clearLocalNotification()*/}
+                                {/*.then(setLocalNotification)*/}
+                        {/*}}*/}
+                    {/*>*/}
+                        {/*<Text>Finish</Text>*/}
+                    {/*</TouchableOpacity>*/}
+                {/*}*/}
             </View>
         )
     }

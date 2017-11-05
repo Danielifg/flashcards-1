@@ -6,11 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="bc580743-7e70-490d-be68-8790c1b43159" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App.js" afterPath="$PROJECT_DIR$/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.json" afterPath="$PROJECT_DIR$/app.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/Deck.js" afterPath="$PROJECT_DIR$/components/Deck.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/Finish.js" afterPath="$PROJECT_DIR$/components/Finish.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/NewQuestion.js" afterPath="$PROJECT_DIR$/components/NewQuestion.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/Quiz.js" afterPath="$PROJECT_DIR$/components/Quiz.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/helpers.js" afterPath="$PROJECT_DIR$/utils/helpers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,89 +30,44 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1512">
-              <caret line="94" column="42" lean-forward="false" selection-start-line="94" selection-start-column="42" selection-end-line="94" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Decklist.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/Decklist.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Deck.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/Deck.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+            <state relative-caret-position="1566">
+              <caret line="96" column="5" lean-forward="false" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#42#67#0" expanded="true" />
+                <marker date="1509561796355" expanded="true" signature="2584:2587" ph="{...}" />
+                <marker date="1509561796355" expanded="true" signature="2584:2589" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Quiz.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/Quiz.js">
+      <file leaf-file-name="app.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="126">
+              <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#41#66#0" expanded="true" />
+                <marker date="1509620903714" expanded="true" signature="0:183" ph="{...}" />
+                <marker date="1509620903714" expanded="true" signature="12:181" ph="{&quot;name&quot;: &quot;Flashcards&quot;...}" />
+                <marker date="1509620903714" expanded="true" signature="170:177" ph="{&quot;scheme&quot;: &quot;expe6d7b389579e40f2bc5ae7a4c79aa1e6&quot;...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Finish.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/Finish.js">
+      <file leaf-file-name="settings.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.expo/settings.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="26" column="163" lean-forward="false" selection-start-line="26" selection-start-column="163" selection-end-line="26" selection-end-column="163" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="e#41#66#0" expanded="true" />
+                <marker date="1509438953650" expanded="true" signature="0:147" ph="{&quot;hostType&quot;: &quot;tunnel&quot;...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewDeck.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/NewDeck.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="26" column="96" lean-forward="false" selection-start-line="26" selection-start-column="96" selection-end-line="26" selection-end-column="96" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#41#66#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="216">
-                <caret line="12" column="144" lean-forward="false" selection-start-line="12" selection-start-column="144" selection-end-line="12" selection-end-column="144" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewQuestion.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/NewQuestion.js">
+      <file leaf-file-name="packager-info.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.expo/packager-info.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -120,13 +76,71 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="helpers.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/utils/helpers.js">
+      <file leaf-file-name="Decklist.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/Decklist.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="164" column="1" lean-forward="false" selection-start-line="164" selection-start-column="1" selection-end-line="164" selection-end-column="1" />
+            <state relative-caret-position="810">
+              <caret line="48" column="17" lean-forward="false" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Deck.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/Deck.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewQuestion.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/NewQuestion.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Quiz.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/components/Quiz.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="77" column="51" lean-forward="false" selection-start-line="77" selection-start-column="51" selection-end-line="77" selection-end-column="51" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Finish.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/Finish.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewDeck.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/NewDeck.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#41#66#0" expanded="true" />
+                <marker date="1509546425470" expanded="true" signature="1394:1400" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -141,21 +155,28 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>this.setState</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/components/NewQuestion.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/components/Decklist.js" />
         <option value="$PROJECT_DIR$/components/NewDeck.js" />
         <option value="$PROJECT_DIR$/components/Finish.js" />
-        <option value="$PROJECT_DIR$/components/Deck.js" />
-        <option value="$PROJECT_DIR$/components/Quiz.js" />
         <option value="$PROJECT_DIR$/App.js" />
         <option value="$PROJECT_DIR$/utils/helpers.js" />
+        <option value="$PROJECT_DIR$/app.json" />
+        <option value="$PROJECT_DIR$/.expo/packager-info.json" />
+        <option value="$PROJECT_DIR$/components/NewQuestion.js" />
+        <option value="$PROJECT_DIR$/components/Deck.js" />
+        <option value="$PROJECT_DIR$/components/Quiz.js" />
       </list>
     </option>
   </component>
@@ -177,10 +198,9 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="-772" />
-    <option name="width" value="1301" />
-    <option name="height" value="772" />
+    <option name="y" value="-30" />
+    <option name="width" value="1366" />
+    <option name="height" value="798" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -237,6 +257,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flashcards" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flashcards" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".expo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -248,7 +282,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="SearchEverywhereHistoryKey" value="app.&#9;FILE&#9;file:///home/rahul/Desktop/flashcards/App.js&#10;help&#9;FILE&#9;file:///home/rahul/Desktop/flashcards/utils/helpers.js&#10;NewD&#9;FILE&#9;file:///home/rahul/Desktop/flashcards/components/NewDeck.js&#10;De&#9;FILE&#9;file:///home/rahul/Desktop/flashcards/components/Decklist.js&#10;Finis&#9;FILE&#9;file:///home/rahul/Desktop/flashcards/components/Finish.js&#10;Quiz&#9;FILE&#9;file:///home/rahul/Desktop/flashcards/components/Quiz.js&#10;Dec&#9;FILE&#9;file:///home/rahul/Desktop/flashcards/components/Deck.js&#10;Decklis&#9;FILE&#9;file:///home/rahul/Desktop/flashcards/components/Decklist.js&#10;README&#9;FILE&#9;file:///home/rahul/Desktop/flashcards/README.md&#10;N&#9;FILE&#9;file:///home/rahul/Desktop/flashcards/components/NewDeck.js&#10;Deckl&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Decklist.js&#10;fini&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Finish.js&#10;deckli&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Decklist.js&#10;app&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/App.js&#10;quiz&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Quiz.js&#10;dec&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Decklist.js&#10;Deckli&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Decklist.js" />
+    <property name="SearchEverywhereHistoryKey" value="Finis&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Finish.js&#10;Quiz&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Quiz.js&#10;NewQ&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/NewQuestion.js&#10;Dec&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Deck.js&#10;app.json&#9;FILE&#9;file:///home/rahul/Desktop/flashcards/app.json&#10;app.&#9;FILE&#9;file:///home/rahul/Desktop/flashcards/App.js&#10;help&#9;FILE&#9;file:///home/rahul/Desktop/flashcards/utils/helpers.js&#10;NewD&#9;FILE&#9;file:///home/rahul/Desktop/flashcards/components/NewDeck.js&#10;De&#9;FILE&#9;file:///home/rahul/Desktop/flashcards/components/Decklist.js&#10;Decklis&#9;FILE&#9;file:///home/rahul/Desktop/flashcards/components/Decklist.js&#10;README&#9;FILE&#9;file:///home/rahul/Desktop/flashcards/README.md&#10;N&#9;FILE&#9;file:///home/rahul/Desktop/flashcards/components/NewDeck.js&#10;Deckl&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Decklist.js&#10;fini&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Finish.js&#10;deckli&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Decklist.js&#10;app&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/App.js&#10;quiz&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Quiz.js&#10;dec&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Decklist.js&#10;Deckli&#9;FILE&#9;file:///home/rahul/Works/Nanodegree/flashcards/components/Decklist.js" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -358,27 +392,28 @@
       <workItem from="1509438334233" duration="64000" />
       <workItem from="1509438421765" duration="14000" />
       <workItem from="1509438453252" duration="14243000" />
-      <workItem from="1509607690745" duration="2709000" />
+      <workItem from="1509607690745" duration="3943000" />
+      <workItem from="1509823600506" duration="2944000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56509000" />
+    <option name="totallyTimeSpent" value="60687000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-772" width="1301" height="772" extended-state="6" />
+    <frame x="0" y="-30" width="1366" height="798" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2254517" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22496264" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -404,40 +439,12 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/Decklist.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="93" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/Deck.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="45" column="17" lean-forward="false" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#42#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/Quiz.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1386">
           <caret line="77" column="25" lean-forward="false" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#41#66#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -449,6 +456,7 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#41#66#0" expanded="true" />
+            <marker date="1509546425470" expanded="true" signature="1394:1400" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -457,25 +465,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/helpers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/utils/helpers.js" />
     <entry file="file://$PROJECT_DIR$/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="972">
           <caret line="60" column="50" lean-forward="false" selection-start-line="60" selection-start-column="50" selection-end-line="60" selection-end-column="50" />
-          <folding />
+          <folding>
+            <marker date="1509561796355" expanded="true" signature="2584:2587" ph="{...}" />
+            <marker date="1509561796355" expanded="true" signature="2584:2589" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -493,7 +497,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#41#66#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -505,6 +508,7 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#41#66#0" expanded="true" />
+            <marker date="1509546425470" expanded="true" signature="1394:1400" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -513,27 +517,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/helpers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="42" column="11" lean-forward="false" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/utils/helpers.js" />
     <entry file="file://$PROJECT_DIR$/components/Deck.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1386">
           <caret line="77" column="25" lean-forward="true" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#42#67#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -542,7 +538,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="972">
           <caret line="60" column="50" lean-forward="false" selection-start-line="60" selection-start-column="50" selection-end-line="60" selection-end-column="50" />
-          <folding />
+          <folding>
+            <marker date="1509561796355" expanded="true" signature="2584:2587" ph="{...}" />
+            <marker date="1509561796355" expanded="true" signature="2584:2589" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -560,7 +559,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#41#66#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -572,6 +570,7 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#41#66#0" expanded="true" />
+            <marker date="1509546425470" expanded="true" signature="1394:1400" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -580,27 +579,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/helpers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/utils/helpers.js" />
     <entry file="file://$PROJECT_DIR$/components/Deck.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#42#67#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -609,7 +600,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1509561796355" expanded="true" signature="2584:2587" ph="{...}" />
+            <marker date="1509561796355" expanded="true" signature="2584:2589" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -627,7 +621,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#42#67#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -638,7 +631,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#41#66#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -650,6 +642,7 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#41#66#0" expanded="true" />
+            <marker date="1509546425470" expanded="true" signature="1394:1400" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -658,25 +651,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/helpers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/utils/helpers.js" />
     <entry file="file://$PROJECT_DIR$/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1509561796355" expanded="true" signature="2584:2587" ph="{...}" />
+            <marker date="1509561796355" expanded="true" signature="2584:2589" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -694,7 +683,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#42#67#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -705,7 +693,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#41#66#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -717,6 +704,7 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#41#66#0" expanded="true" />
+            <marker date="1509546425470" expanded="true" signature="1394:1400" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -725,25 +713,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/helpers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/utils/helpers.js" />
     <entry file="file://$PROJECT_DIR$/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1509561796355" expanded="true" signature="2584:2587" ph="{...}" />
+            <marker date="1509561796355" expanded="true" signature="2584:2589" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -761,7 +745,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#42#67#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -772,7 +755,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#41#66#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -784,6 +766,7 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#41#66#0" expanded="true" />
+            <marker date="1509546425470" expanded="true" signature="1394:1400" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -792,110 +775,124 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/helpers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/NewQuestion.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/helpers.js" />
     <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="216">
             <caret line="12" column="144" lean-forward="false" selection-start-line="12" selection-start-column="144" selection-end-line="12" selection-end-column="144" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/NewDeck.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#41#66#0" expanded="true" />
+            <marker date="1509546425470" expanded="true" signature="1394:1400" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/helpers.js" />
+    <entry file="file://$PROJECT_DIR$/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1566">
+          <caret line="96" column="5" lean-forward="false" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+          <folding>
+            <marker date="1509561796355" expanded="true" signature="2584:2587" ph="{...}" />
+            <marker date="1509561796355" expanded="true" signature="2584:2589" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding>
+            <marker date="1509620903714" expanded="true" signature="0:183" ph="{...}" />
+            <marker date="1509620903714" expanded="true" signature="12:181" ph="{&quot;name&quot;: &quot;Flashcards&quot;...}" />
+            <marker date="1509620903714" expanded="true" signature="170:177" ph="{&quot;scheme&quot;: &quot;expe6d7b389579e40f2bc5ae7a4c79aa1e6&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.expo/settings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1509438953650" expanded="true" signature="0:147" ph="{&quot;hostType&quot;: &quot;tunnel&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.expo/packager-info.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/Decklist.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        <state relative-caret-position="810">
+          <caret line="48" column="17" lean-forward="false" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/NewDeck.js">
+    <entry file="file://$PROJECT_DIR$/components/NewQuestion.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="26" column="96" lean-forward="false" selection-start-line="26" selection-start-column="96" selection-end-line="26" selection-end-column="96" />
+        <state relative-caret-position="270">
+          <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#41#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Deck.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/Finish.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="26" column="163" lean-forward="false" selection-start-line="26" selection-start-column="163" selection-end-line="26" selection-end-column="163" />
-          <folding>
-            <element signature="e#41#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/Deck.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#42#67#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="205">
+          <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/Quiz.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="234">
+          <caret line="77" column="51" lean-forward="false" selection-start-line="77" selection-start-column="51" selection-end-line="77" selection-end-column="51" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#41#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1512">
-          <caret line="94" column="42" lean-forward="false" selection-start-line="94" selection-start-column="42" selection-end-line="94" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/helpers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="164" column="1" lean-forward="false" selection-start-line="164" selection-start-column="1" selection-end-line="164" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>

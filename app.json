@@ -1,5 +1,8 @@
 {
   "expo": {
+    "name":"Flashcards",
+    "version":"0.0.1",
+    "slug":"flashcards",
     "sdkVersion": "21.0.0",
     "android": {
       "package": "com.rahul.flashcards"
