@@ -15,22 +15,7 @@ class Decklist extends React.Component{
             loading:true
         }
     }
-    componentWillMount(){
-        this.setState({
-            loading:true
-        })
-        getDecks().then(data=>{
-            console.log('The data which we get on mount',data)
-            if(data!==undefined){
-                this.setState({
-                    cards:Object.keys(data).map((key)=>(data[key])),
-                    loading:false
-                })
-            }
-        }).catch(err=>console.error(err))
-    }
-    _onRefresh() {
-        this.setState({refreshing: true});
+    fetchDecks=()=>{
         getDecks().then(data=>{
             console.log(data)
             this.setState({
@@ -39,6 +24,19 @@ class Decklist extends React.Component{
                 loading:false
             })
         }).catch(err=>console.error(err))
+    }
+    _onRefresh() {
+        this.setState({refreshing: true});
+        this.fetchDecks()
+    }
+    componentWillMount(){
+        this.setState({
+            loading:true
+        })
+        this.fetchDecks()
+    }
+    componentDidUpdate(){
+        this.fetchDecks()
     }
     render(){
         const {cards,loading}=this.state

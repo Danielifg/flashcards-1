@@ -9,5 +9,3 @@ _____________________
 Install all dependencies: `yarn install`
 
 To start: `yarn start`
-
-NOTE: Once the app starts for the first time, It takes a while to initialize AsyncStorage. So Pull Down to refresh after the first view appears.
